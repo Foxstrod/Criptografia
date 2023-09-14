@@ -1,0 +1,10 @@
+curl 'http://172.17.0.2/vulnerabilities/brute/?username=admin&password=admin&Login=Login' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: es-419,es;q=0.9' \
+  -H 'Cookie: PHPSESSID=u7emdaskk18gsv3rl5g7g3bs04; security=low' \
+  -H 'Proxy-Connection: keep-alive' \
+  -H 'Referer: http://172.17.0.2/vulnerabilities/brute/?username=admin&password=password&Login=Login' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.141 Safari/537.36' \
+  --compressed \
+  --insecure
