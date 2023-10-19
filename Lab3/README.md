@@ -1,4 +1,4 @@
-# Lab3
+# Enunciado Lab3
 
 Su informante quiere entregarle la contraseña de acceso a una red, pero desconfía de todo medio para entregársela (aún no llega al capítulo del curso en donde aprende a comunicar una password sin que nadie más la pueda interceptar).
 Por lo tanto, le entregará un archivo que contiene un desafío de autenticación, que al analizarlo, usted podrá obtener la contraseña que lo permite resolver.
@@ -22,3 +22,6 @@ Al calcular la password con hashcat utilice dos técnicas: una donde el resultad
 Indique qué información retorna cada una de las 2 técnicas, identificando claramente cada campo.
 
 Recuerde guiarse por la rúbrica y utilizar el formato de informe cuyo código fuente está [acá](https://udp.instructure.com/courses/24641/files/3035244?wrap=1)
+
+# Informe Lab 3
+El informe desarrollado puede encontrarse en el siguiente [acá](https://www.overleaf.com/read/fyhcqzgvcgtr)
