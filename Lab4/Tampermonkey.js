@@ -110,6 +110,12 @@
 
             console.log(id, mensajeDescifradoTexto);
 
+            // Actualizar el contenido del elemento <p> en el DOM
+            var parrafo = document.querySelector('p'); // Selecciona el único elemento <p> en el documento
+            if (parrafo) {
+                // Agregar el mensaje descifrado al párrafo con saltos de línea
+                parrafo.innerHTML += '<br>' + mensajeDescifradoTexto;
+            }
             //console.log("-----------------------------------------------------------------------------------------------------------");
 
         }
